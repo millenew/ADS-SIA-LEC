@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> MyTour.PH | Home Page</title>
+  <style type="text/css">
+    
+    .menu{
+      border: 2px; 
+      border-radius: 5px;
+      text-decoration: none;
+      padding: 20px 50px;
+      padding-top:10px;
+      color: white;
+      font-size: 25px;
+    }
+
+    .menu:hover{
+      border: 2px solid yellow; 
+      color: black;
+      background-color: white;
+      font-weight: bolder;
+    }
+    .menu-active{
+      border: 2px; 
+      border-radius: 5px;
+      padding: 20px 50px;
+      padding-top: 10px;
+      font-size: 25px;
+      color: #6b823e;
+    }
+  
+    body {
+      min-width: 630px;
+    }
+
+    #container {
+      padding-left: 200px;
+      padding-right: 190px;
+    }
+    
+    #container .column {
+      position: relative;
+      float: left;
+    }
+    
+    #center {
+      padding: 10px 20px;
+      width: 100%;
+    }
+    
+    #left {
+      width: 180px;
+      padding: 0 10px;
+      right: 240px;
+      margin-left: -100%;
+    }
+    
+    #right {
+      width: 180px;
+      padding: 0 10px;
+      margin-right: -100%;
+      right: 240px;
+      padding-bottom: 1001em;
+      margin-bottom: -1000em;
+      padding-left: 3em;
+    }
+    
+    #footer {
+      clear: both;
+    }
+    
+    /* IE hack */
+    * html #left {
+      left: 150px;
+    }
+
+    /* Make the columns the same height as each other */
+    #container {
+      overflow: hidden;
+    }
+
+    #container .column {
+      padding-bottom: 1001em;
+      margin-bottom: -1000em;
+    }
+
+    /* Fix for the footer */
+    * html body {
+      overflow: hidden;
+    }
+    
+    * html #footer-wrapper {
+      float: left;
+      position: relative;
+      width: 100%;
+      padding-bottom: 10010px;
+      margin-bottom: -10000px;
+      background: #fff;
+    }
+    html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  margin-bottom: 30px;
+  padding: 0 8px;
+
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 95%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+
+<body style="background-color:white;">
+<div style="background-color: rgb(154, 181, 99); padding: 0px 40px 30px 40px; "> 
+      
+    <center>
+      <a href="TourPh.html" style="" class=""> <img src="images/Untitled-2.png"  ALT="some text" width = "180px" height = "70px" style="padding-top:10px;padding-right: 40px;"></a>
+      <a href="TourPh.html" style="margin-bottom: 1000px;" class="menu">Home</a>
+      <a href="history.html" style="" class="menu">History</a>
+      <a href="Destination.html" style="" class="menu">Destinations</a>
+      <a href="Blog.html" style="" class="menu">Blog</a>
+      <a href="Contact.html" style="" class="menu-active">Contact Us</a>
+</div>
+
+    
+<div style = "font-size:25px; color: black;">
+    <h1> About MyTour.PH</h1>
+    <h3>MyTour.PH is the flagship publication of MyTour.PH, Philippines Leader in Digital Travel Media that has a media reach of 25 million every month. The MyTour.PH brand also has under its wing MyTour.PH, Philippines's Travel Portal, a collection of the finest stays in Philippines.</h3>
+    <br>
+    <h1>MyTour.PH Management Team</h1>
+    <h3>MyTour.PH is backed by a team of highly passionate individuals, the perfect blend of creativity and talent. We aim to break new grounds in the travel industry and inspire our readers to make travel happen.  </h3>
+
+<br>
+<div class="column" style = "margin-left:400px; margin-right:350px";>
+    <div class="card">
+      <img src="images/mil.jpg" alt="Millenium" style="width:100%" >
+      <div class="container">
+        <h2>Millenium Miras</h2>
+        <p class="title">Team Leader</p>
+        <p>Any fool can write code that a computer can understand. Good programmers write code that humans can understand. – Martin Fowler</p>
+        <p>milleniummiras16@gmail.com.com</p>
+        <p><button class="button" onclick="document.location='https://www.facebook.com/millenium.miras/'">Contact on Facebook</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="images/jec.jpg" alt="Jeca" height = "300" style = "margin-left:90px; margin-right:30px"; width="-500px">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">Member</p>
+        <p>First, solve the problem. Then, write the code. – John Johnson</p>
+        <p>jecajoycalope@gmail.com</p>
+        <p><button class="button" onclick="document.location='https://www.facebook.com/jeca.calope'">Contact on Facebook</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/bel.jpg" alt="Daisybelle" height = "300" style = "margin-left:48px; margin-right:30px";>
+      <div class="container">
+        <h2>Daisybelle Niego</h2>
+        <p class="title">Member</p>
+        <p>Simplicity is the soul of efficiency. – Austin Freeman</p>
+        <p>niegodaisybelle@gmail.com</p>
+        <p><button class="button" onclick="document.location='https://www.facebook.com/profile.php?id=100001285740364'">Contact on Facebook</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/lyn.jpg" alt="Rowelyn" height = "300" style = "margin-left:90px; margin-right:30px";>
+      <div class="container">
+        <h2>Rowelyn Patanao</h2>
+        <p class="title">Member</p>
+        <p> Code is like humor. When you have to explain it, it’s bad. – Cory House</p>
+        <p>rowelyngesulgapatanao@gmail.com</p>
+        <p><button class="button" onclick="document.location='https://www.facebook.com/rowelyngesulgapatanao'">Contact on Facebook</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </style>
+</head>
